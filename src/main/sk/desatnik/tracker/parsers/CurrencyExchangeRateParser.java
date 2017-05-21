@@ -10,7 +10,7 @@ import sk.desatnik.tracker.objects.CurrencyExchangeRate;
 
 public class CurrencyExchangeRateParser implements Parser<CurrencyExchangeRate> {
 
-    protected static DecimalFormat decimalFormat;
+    private static final DecimalFormat decimalFormat;
 
     static {
         DecimalFormatSymbols symbol = new DecimalFormatSymbols();

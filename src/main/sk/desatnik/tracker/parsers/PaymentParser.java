@@ -10,7 +10,7 @@ import sk.desatnik.tracker.objects.Payment;
 
 public class PaymentParser implements Parser<Payment> {
 
-    protected static DecimalFormat decimalFormat;
+    private static final DecimalFormat decimalFormat;
 
     static {
         DecimalFormatSymbols symbol = new DecimalFormatSymbols();

@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 
 public class NetAmountDisplayService {
 
-    protected static DecimalFormat decimalFormat;
+    private static final DecimalFormat decimalFormat;
 
     static {
         DecimalFormatSymbols symbol = new DecimalFormatSymbols();
